@@ -1,25 +1,25 @@
 @font-face {
     font-family: 'Mons-B';
     src: url(../fonts/Montserrat-Bold.ttf) format('truetype');
-
+/* 700 */
 }
 @font-face {
     font-family: 'Mons-Eb';
     src: url(../fonts/Montserrat-ExtraBold.ttf) format('truetype');
-
+/* 800 */
 }
 @font-face {
     font-family: 'Mons-M';
     src: url(../fonts/Montserrat-Medium.ttf) format('truetype');
-
+/* 500 */
 }
 @font-face {
     font-family: 'Open-SR';
     src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
-
+/* 400 */
 }
 @font-face {
     font-family: 'Open-SB';
     src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
-
+/* 600 */
 }

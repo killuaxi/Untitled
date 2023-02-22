@@ -28,11 +28,16 @@
     gap: 305px;
 }
 
+.header__logo {
+    margin: 13px 0 17px ;
+}
+
 .nav__list{
     display: flex;
 justify-content:space-between;
 align-items: center;
 gap: 35px;
+
 }
 
 .nav__link{
@@ -41,6 +46,7 @@ font-size: 12px;
 font-weight: 400;
 line-height: 25px;
 color: white;
+
 }
 
 .nav__link1{
@@ -48,12 +54,115 @@ font-family: 'Open Sans',sans-serif;
 font-size: 14px;
 font-weight: 600;
 line-height: 19px;
-
 color: white;
+
 }
 
 .nav__logo {
     color: white;
     width: 24px;
     height: 24px;
+}
+
+
+.nav_item{
+    transition: 1s; /* Время эффекта */
+text-align: center; 
+}
+
+.nav_item:hover{
+    transform: scale(1.2);
+}
+
+
+.banner {
+    background: url(../img/back.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size:cover ;
+    background-position: center;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    gap: 31px;
+}
+
+
+.banner__h{
+    font-family: 'Mons-B',sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 55px;
+    color: white;
+}
+
+.banner__p{
+    font-family: 'Open-SB',sans-serif;
+font-size: 25px;
+font-weight: 600;
+line-height: 45px;
+color: white;
+width: 448px;
+}
+
+.banner2{
+    margin-top: 140px; 
+    margin-bottom: 141.47px;
+
+}
+
+.banner2__hdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 36px;
+    
+}
+.banner2__wrap{
+    /* margin-top: 140px; */
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+    gap: 80px;
+}
+
+.banner2__h{
+font-family: 'Mons-M',sans-serif;
+font-size: 25px;
+font-weight: 500;
+line-height: 30px;
+}
+
+.banner2__ul {
+    display: flex;
+  align-items: center;
+flex-direction: column;
+
+    gap: 55px;
+}
+
+
+.banner2__li{
+    display: flex;
+    flex-wrap: wrap;
+    gap:26px;
+align-items: center;
+justify-content: baseline;
+     
+    
+}
+
+.banner2__p {
+   
+font-family: 'Open-SR',sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 25px;
+
+
 }
